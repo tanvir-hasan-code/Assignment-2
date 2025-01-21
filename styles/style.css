@@ -20,7 +20,7 @@
 }
 
 body {
-  background:  url("../assets/bg.png"),linear-gradient(rgba(255, 255, 255, 1),rgba(254, 163, 1, 0.3));
+  background: url("../assets/bg.png"), linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 0.3));
 }
 
 /* colors */
@@ -100,7 +100,7 @@ body {
   padding: 10px 60px;
 }
 
-.banner-btn {
+.primary-btn {
   font-size: 1.25rem;
   font-weight: 700;
   color: #FFFFFF;
@@ -110,7 +110,8 @@ body {
   border: none;
   margin-top: 24px;
 }
-.btn-v{
+
+.btn-v {
   font-size: 1.25rem;
   font-weight: 700;
   color: #FFFFFF;
@@ -120,6 +121,7 @@ body {
   border: none;
   margin-top: 24px;
 }
+
 .btn-card {
   color: #FFFFFF;
   font-size: 0.9rem;
@@ -135,13 +137,11 @@ body {
   margin-top: -26px;
   margin-left: 38px;
 }
-
-.card-btn,
-a {
+.card-btn{
+  text-decoration: none; 
   display: flex;
+  text-align: center;
   justify-content: center;
-  text-decoration: none;
-  margin-top: 0px;
   margin-bottom: 50px;
 }
 
