@@ -106,12 +106,12 @@ header,main{
   margin-top: -26px;
   margin-left: 38px;
 }
-}
+
 .btn2{
   background-color: rgba(149, 178, 38, 1);
 }
 .btn3{
-  background-color: rgba(93, 88, 240, 1);
+  background-color: rgba(93, 0, 240, 1);
 }
 .btn4{
   background-color: aquamarine ;
@@ -325,5 +325,19 @@ hr{
   }
   .frist-card, .secound-card,.third-card{
     margin: 10%;
+  }
+  .card1{
+    display: none;
+  }
+  .stories-cards{
+    grid-template-columns: repeat(1,1fr);
+    margin: 30px;
+  }
+  .btn2,.btn3,.btn4,.btn5{
+    margin-top: -25px;
+    margin-left: 86px;
+  }
+  .s-card-title{
+    text-align: center;
   }
 }
