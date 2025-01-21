@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* colors */
+.orange-color{
+  color: rgba(254, 163, 1, 1);
+}
+.blue-color{
+  color:rgba(1, 172, 253, 1) ;
+}
+.navber{
+  display: flex;
+  align-items:center;
+  max-width: 1160px;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.logo-section{
+  display: flex;
+  align-items: center;
+  gap:11px;
+}
+.logo-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(17, 17, 17, 1);
+}
+.list-item{
+  display: flex;
+}
+.list-item>a{
+  text-decoration: none;
+}
+.list-item>a>li{
+  list-style: none;
+  margin-right: 30px;
+}
+.home{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgba(254, 163, 1, 1);
+}
+.about{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: rgba(1, 172, 253, 1);
+}
+.facilities{
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: rgba(5, 212, 223, 1);
+}
+.admission{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgba(93, 88, 239, 1);
+}
+
+/* btn style */
+.btn-primary{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color:#FEA301;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 60px;
+}
+.banner-btn{
+  font-size:1.25rem ;
+  font-weight: 700;
+  color:#FFFFFF;
+  padding: 10px 47px;
+  background-color:rgba(17, 17, 17, 1);
+  border-radius:12px;
+  border: none;
+  margin-top: 24px;
+}
+
+/* 3 dot style */
+.dot-icon{
+  display: none;
+}
+.dot-icon>div{
+  height: 3px;
+  width: 35px;
+  background-color: #000000;
+  margin: 5px 0;
+}
+hr{
+  display: none;
+}
+/* banner section style */
+.banner-containt{
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner-title{
+  font-size:3.5rem;
+  font-size: 700;
+  margin-bottom: 24px;
+}
+.banner-discription{
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: rgba(17, 17, 17, .8);
+}
+
+/* section1 card style  */
+.curriculum-title{
+  margin-top: 60px;
+  font-size:2.8rem ;
+  font-weight: 700;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  gap: 29px;
+  max-width: 1160px;
+  margin: 80px auto 50px auto;
+}
+.frist-card, .secound-card,.third-card{
+  border-radius: 19px;
+  text-align: center;
+  box-shadow: 0 0 29px 0.9px rgba(0, 0, 0, 0.05);
+  padding: 65px 40px 53px 40px;
+}
+.frist-card{
+  background: linear-gradient(0deg,rgba(222, 245, 255, 1)0%,rgba(222, 245, 255, 1), 100%));
+}
+.card-title{
+  font-size: 1.25rem;
+  font-weight:700;
+  margin: 32px 0 33px 0;
+}
+.card-details{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 1);
+  margin-bottom: 33px;
+}
+.card-A,.card-B,.card-C{
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.card-A{
+  color: rgba(100, 200, 255, 1);
+}
+.card-B{
+  color:rgba(240, 170, 0, 1) ;
+}
+.card-C{
+  color:rgba(135, 0, 255, 1) ;
+}
+
+
+main{
+  display: none;
+}
+
+
+
+
+/* Media quary style */
+@media screen and (max-width:576px) {
+  .logo-title,.list-item, .contact-btn{
+    display: none;
+  }
+  .dot-icon{
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .logo{
+    margin-left: 15px;
+  }
+  .banner-containt{
+    flex-direction: column-reverse;
+  }
+  .banner-img{
+    width: 100%;
+  }
+  .banner-containt-txt{
+    text-align: center;
+  }
+}
