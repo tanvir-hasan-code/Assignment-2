@@ -19,9 +19,8 @@
   padding: 0;
 }
 
-header,
-main {
-  background: url("../assets/bg.png");
+body {
+  background:  url("../assets/bg.png"),linear-gradient(rgba(255, 255, 255, 1),rgba(254, 163, 1, 0.3));
 }
 
 /* colors */
@@ -111,7 +110,16 @@ main {
   border: none;
   margin-top: 24px;
 }
-
+.btn-v{
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  background-color: rgba(17, 17, 17, 1);
+  border-radius: 12px;
+  border: none;
+  margin-top: 24px;
+}
 .btn-card {
   color: #FFFFFF;
   font-size: 0.9rem;
@@ -349,58 +357,70 @@ a {
   margin-left: 20px;
 }
 
-footer{
+footer {
   background-color: rgba(1, 172, 253, 1);
   padding: 123px 228px 174px 140px;
 }
-.footer-contant{
+
+.footer-contant {
   display: flex;
   justify-content: space-between;
 }
-.footer-logo{
+
+.footer-logo {
   display: flex;
   align-items: center;
   gap: 11px;
 }
-.footer-title{
+
+.footer-title {
   font-size: 2.6rem;
   font-weight: 700;
   color: white;
 }
-.footer-logo>img{
+
+.footer-logo>img {
   width: 10%;
 }
-.footer-discription{
+
+.footer-discription {
   font-size: 1rem;
   color: rgba(255, 255, 255, 1);
   margin-top: 35px;
-  max-width:399px;
+  max-width: 399px;
 }
-.footer-about{
+
+.footer-about {
   color: white;
 }
-.footer-about>h4{
+
+.footer-about>h4 {
   font-size: 1.25rem;
   margin-bottom: 32px;
 }
-.options{
+
+.options {
   gap: 20px;
 }
-.footer-about>a{
+
+.footer-about>a {
   text-decoration: none;
 }
-.footer-about>ul>li{
+
+.footer-about>ul>li {
   list-style: none;
   margin-top: 20px;
 }
-.footer-social>h1{
+
+.footer-social>h1 {
   font-size: 1.6rem;
   font-weight: 700;
   color: white;
 }
-.social{
+
+.social {
   display: flex;
-  gap:10px ;
+  gap: 10px;
   margin-top: 32px;
 }
 
@@ -481,34 +501,42 @@ footer{
   .s-card-title {
     text-align: center;
   }
-  .footer-contant{
+
+  .footer-contant {
     flex-direction: column;
     padding: 30px;
   }
-  footer{
+
+  footer {
     padding: 0;
   }
-  .footer-logo{
+
+  .footer-logo {
     display: flex;
     text-align: center;
     justify-content: center;
   }
-  .footer-logo>img{
+
+  .footer-logo>img {
     width: 26%;
   }
-  .footer-logo-section{
+
+  .footer-logo-section {
     text-align: center;
     margin: 10px;
   }
-  .footer-about{
+
+  .footer-about {
     text-align: center;
     margin-top: 30px;
   }
-  .footer-social{
+
+  .footer-social {
     text-align: center;
     margin-top: 30px;
   }
-  .social{
+
+  .social {
     justify-content: center;
   }
 
