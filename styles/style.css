@@ -14,6 +14,9 @@
   margin: 0;
   padding: 0;
 }
+header,main{
+  background:url("../assets/bg.png"), linear-gradient(##F7F7F7,#F9E0B3);
+}
 /* colors */
 .orange-color{
   color: rgba(254, 163, 1, 1);
@@ -89,6 +92,33 @@
   border: none;
   margin-top: 24px;
 }
+.btn-card{
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 14px 19px;
+  border-radius: 48px;
+  border: none;
+  position: absolute;
+}
+.btn1{
+  background-color: #3CD8E8;
+  margin-top: -26px;
+  margin-left: 38px;
+}
+}
+.btn2{
+  background-color: rgba(149, 178, 38, 1);
+}
+.btn3{
+  background-color: rgba(93, 88, 240, 1);
+}
+.btn4{
+  background-color: aquamarine ;
+}
+.btn5{
+  background-color: green;
+}
 
 /* 3 dot style */
 .dot-icon{
@@ -131,6 +161,7 @@ hr{
 }
 .cards{
   display: flex;
+  justify-content: center;
   gap: 29px;
   max-width: 1160px;
   margin: 80px auto 50px auto;
@@ -142,7 +173,13 @@ hr{
   padding: 65px 40px 53px 40px;
 }
 .frist-card{
-  background: linear-gradient(0deg,rgba(222, 245, 255, 1)0%,rgba(222, 245, 255, 1), 100%));
+  background:linear-gradient(rgb(177, 228, 248),30%, white);
+}
+.secound-card{
+  background: linear-gradient(rgb(255, 244, 220),30%, white);
+}
+.third-card{
+  background: linear-gradient(rgba(238, 225, 255, 1),30%, white);
 }
 .card-title{
   font-size: 1.25rem;
@@ -169,11 +206,90 @@ hr{
 .card-C{
   color:rgba(135, 0, 255, 1) ;
 }
-
-
-main{
-  display: none;
+/* slid contatn */
+.slid-contant{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
+.slid-contant>a{
+  text-decoration: none;
+}
+.arrow{
+  color: #FFFFFF;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: rgba(254, 163, 1, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-weight: 700;
+}
+
+/* section2 disign stories */
+
+.stories-title{
+  font-size:2.8rem ;
+  font-weight: 700;
+  text-align: center;
+  margin-top:60px;
+}
+.stories-cards{
+  display: grid;
+  gap: 20px;
+  max-width: 1160px;
+  margin: 60px auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,300px);
+}
+
+.card-image{
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  position: relative;
+}
+.card1{
+  grid-row: span 2;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  height: 630px ;
+  width: 540px;
+}
+.s-card{
+  box-shadow: 0 0 29px 0.9px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.s-card-title1{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 61px 100px 51px 38px;
+}
+.s-card-title{
+  margin: 38px 38px 23px 38px;
+}
+.s-card-details{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color:rgba(102, 102, 102, 1) ;
+  margin: 0px 68px 34px 38px;
+}
+.btn2,.btn3,.btn4,.btn5{
+  margin-top: -25px;
+  margin-left: 38px;
+}
+
+
+
+
+
+
 
 
 
@@ -198,5 +314,16 @@ main{
   }
   .banner-containt-txt{
     text-align: center;
+  }
+  .slid-contant{
+    display:none ;
+  }
+  .cards{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  .frist-card, .secound-card,.third-card{
+    margin: 10%;
   }
 }
