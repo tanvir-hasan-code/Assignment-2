@@ -127,6 +127,12 @@ main {
   margin-top: -26px;
   margin-left: 38px;
 }
+.card-btn , a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 0px;
+}
 
 .btn2 {
   background-color: rgba(149, 178, 38, 1);
@@ -155,11 +161,6 @@ main {
   background-color: #000000;
   margin: 5px 0;
 }
-
-hr {
-  display: none;
-}
-
 /* banner section style */
 .banner-containt {
   max-width: 1160px;
@@ -195,6 +196,7 @@ hr {
   gap: 29px;
   max-width: 1160px;
   margin: 80px auto 50px auto;
+  margin-bottom: 0px;
 }
 
 .frist-card,
@@ -293,7 +295,7 @@ hr {
   max-width: 1160px;
   margin: 60px auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
 }
 
 .card-image {
@@ -340,7 +342,7 @@ hr {
 .btn4,
 .btn5 {
   margin-top: -25px;
-  margin-left: 38px;
+  margin-left: 20px;
 }
 
 
@@ -408,10 +410,16 @@ hr {
   .btn4,
   .btn5 {
     margin-top: -25px;
-    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: .5rem;
   }
 
   .s-card-title {
     text-align: center;
+  }
+  .navber{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FEA301;
   }
 }
